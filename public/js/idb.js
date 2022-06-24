@@ -45,7 +45,7 @@ function uploadRecord() {
         // if data in idb store, send it to api server
         if(getAll.result.length > 0) {
             // insert fetch request to post transaction
-            fetch('/api/transaction', {
+            fetch('/api/transaction/bulk', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
                 headers: {
@@ -57,7 +57,7 @@ function uploadRecord() {
                 return response.json();
             })
             .then(data => {
-                if(data.messgae) {
+                if(data.message) {
                     throw new Error(data);
                 };
 
@@ -66,6 +66,7 @@ function uploadRecord() {
                 const transObjectStore = db_transaction.objectStore('new_transaction');
                 transObjectStore.clear();
                 alert('All transactions have been submitted');
+                document.location.reload();
             })
             .catch(err => {
                 console.log(err)
