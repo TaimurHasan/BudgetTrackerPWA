@@ -1,7 +1,7 @@
 # BudgetTrackerPWA
 
 ## Description
-[![Budget Tracker Logo](./public/icons/icon-512x512.png)](https://budgettrackerbytaimur.herokuapp.com/)
+[![Budget Tracker Logo](./public/icons/icon-192x192.png)](https://budgettrackerbytaimur.herokuapp.com/)
 
 <br/>
 A progressive web application designed for offline functionality to track your income and expenses. <br/>
@@ -29,6 +29,8 @@ A progressive web application designed for offline functionality to track your i
 ## Usage
 To use this application, please visit the deployed application on [Heroku](https://budgettrackerbytaimur.herokuapp.com/). <br/>
 
+
+
 ![Budget Tracker Main Page](./assets/images/budgettracker.png)
 
 
@@ -43,6 +45,7 @@ This project is licensed under the MIT License - see the [license info](https://
 
 This project can be contributed to by forking the application. For any contributions, please submit a Pull Request, which will be reviewed upon submission before acceptance.
 
+Note: Frontend starting files provided © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 <a name="questions"></a>
 
 ## Questions
